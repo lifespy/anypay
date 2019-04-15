@@ -6,6 +6,8 @@
 
 链接: [https://pan.baidu.com/s/1Jmgqn4hNb9AyJ8Gi07eGUA](https://pan.baidu.com/s/1Jmgqn4hNb9AyJ8Gi07eGUA)   提取码: tksq
 
+将**AnypayAlipay**文件夹放到**application\library\Pay**目录下
+
 #### 2.打开mysql控制台，执行数据库语句：
 
     INSERT INTO `faka`.`t_payment` (`id`, `payment`, `payname`, `payimage`, `alias`, `sign_type`, `app_id`, `app_secret`, `ali_public_key`, `rsa_private_key`, `configure3`, `configure4`, `overtime`, `active`) VALUES ('12', '易付通(支付宝)', '支付宝', '/res/images/pay/alipay.jpg', 'anypayalipay', 'MD5', '', '', '', '', '', '', '0', '0');
