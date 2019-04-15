@@ -7,6 +7,7 @@
 链接: [https://pan.baidu.com/s/1Jmgqn4hNb9AyJ8Gi07eGUA](https://pan.baidu.com/s/1Jmgqn4hNb9AyJ8Gi07eGUA)   提取码: tksq
 
 将**AnypayAlipay**文件夹放到**application\library\Pay**目录下
+将**html**文件夹下anypayalipay.html文件的放到**application/modules/Admin/views/payment/tpl/**目录下
 
 #### 2.打开mysql控制台，执行数据库语句：
 
