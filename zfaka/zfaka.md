@@ -12,7 +12,7 @@
 
 #### 2.打开mysql控制台，执行数据库语句：
 
-    INSERT INTO `faka`.`t_payment` (`id`, `payment`, `payname`, `payimage`, `alias`, `sign_type`, `app_id`, `app_secret`, `ali_public_key`, `rsa_private_key`, `configure3`, `configure4`, `overtime`, `active`) VALUES ('12', '易付通(支付宝)', '支付宝', '/res/images/pay/alipay.jpg', 'anypayalipay', 'MD5', '', '', '', '', '', '', '0', '0');
+    INSERT INTO `faka`.`t_payment` (`id`, `payment`, `payname`, `payimage`, `alias`, `sign_type`, `app_id`, `app_secret`, `ali_public_key`, `rsa_private_key`, `configure3`, `configure4`, `overtime`, `active`) VALUES ('12', '易付通(支付宝)', '支付宝', '/res/images/pay/alipay.jpg', 'AnypayAlipay', 'MD5', '', '', '', '', '', '', '0', '0');
 
 #### 3.进入zfaka后台:
 
