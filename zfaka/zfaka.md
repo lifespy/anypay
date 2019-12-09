@@ -1,20 +1,22 @@
-### zfaka对接易付通教程\([https://pay.anypay.me](https://pay.anypay.me)\)
+# zfaka对接易付通教程\(https://pay.anypay.me\)
 
 > ！以下所有操作都假设你已经去易付通后台注册过账户并且使用你的网址成功入网。
 
-#### 1.首先下载文件：
+## 1.首先下载文件：
 
-链接: [https://pan.baidu.com/s/1Jmgqn4hNb9AyJ8Gi07eGUA](https://pan.baidu.com/s/1Jmgqn4hNb9AyJ8Gi07eGUA)   提取码: tksq
+链接: [https://pan.baidu.com/s/1Jmgqn4hNb9AyJ8Gi07eGUA](https://pan.baidu.com/s/1Jmgqn4hNb9AyJ8Gi07eGUA) 提取码: tksq
 
 将**AnypayAlipay**文件夹放到**application\library\Pay**目录下
 
 将**html**文件夹下anypayalipay.html文件的放到**application/modules/Admin/views/payment/tpl/**目录下
 
-#### 2.打开mysql控制台，执行数据库语句：
+## 2.打开mysql控制台，执行数据库语句：
 
-    INSERT INTO `faka`.`t_payment` (`id`, `payment`, `payname`, `payimage`, `alias`, `sign_type`, `app_id`, `app_secret`, `ali_public_key`, `rsa_private_key`, `configure3`, `configure4`, `overtime`, `active`) VALUES ('12', '易付通(支付宝)', '支付宝', '/res/images/pay/alipay.jpg', 'AnypayAlipay', 'MD5', '', '', '', '', '', '', '0', '0');
+```text
+INSERT INTO `faka`.`t_payment` (`id`, `payment`, `payname`, `payimage`, `alias`, `sign_type`, `app_id`, `app_secret`, `ali_public_key`, `rsa_private_key`, `configure3`, `configure4`, `overtime`, `active`) VALUES ('12', '易付通(支付宝)', '支付宝', '/res/images/pay/alipay.jpg', 'AnypayAlipay', 'MD5', '', '', '', '', '', '', '0', '0');
+```
 
-#### 3.进入zfaka后台:
+## 3.进入zfaka后台:
 
 a.设置中心--&gt;配置中心
 
